@@ -1,0 +1,20 @@
+<svg width="128" height="128" viewBox="0 0 128 128" xmlns="http://www.w3.org/2000/svg">
+  <!-- 背景 -->
+  <rect width="128" height="128" fill="#2B2B2B" rx="24"/>
+
+  <!-- 左侧多彩条 -->
+  <rect x="24" y="56" width="32" height="16" rx="4" fill="#EF5350"/>
+  <rect x="32" y="48" width="32" height="16" rx="4" fill="#FFCA28" opacity="0.9"/>
+  <rect x="40" y="64" width="32" height="16" rx="4" fill="#66BB6A" opacity="0.8"/>
+
+  <!-- 转换箭头 -->
+  <path d="M 76 64 L 88 64 M 84 60 L 88 64 L 84 68"
+        stroke="#AB47BC" stroke-width="3" fill="none" stroke-linecap="round"/>
+
+  <!-- 右侧单色条 -->
+  <rect x="96" y="60" width="32" height="16" rx="4" fill="#AB47BC"/>
+
+  <!-- 代码符号 -->
+  <text x="64" y="100" font-family="Consolas, Monaco, monospace" font-size="24"
+        fill="#AB47BC" text-anchor="middle">&lt;/&gt;</text>
+</svg>
