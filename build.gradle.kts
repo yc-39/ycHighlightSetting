@@ -5,7 +5,7 @@ plugins {
 }
 
 group = "yc39"
-version = "1.3"
+version = "1.4"
 
 repositories {
     mavenCentral()
@@ -31,7 +31,7 @@ tasks {
 
     patchPluginXml {
         sinceBuild.set("241")
-        untilBuild.set("243.*")
+        untilBuild.set("262.*")
     }
 
     signPlugin {
